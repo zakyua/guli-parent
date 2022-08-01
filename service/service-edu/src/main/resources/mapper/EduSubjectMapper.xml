@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace对应的是Mapper接口-->
+<mapper namespace="com.atguigu.mybatis.mappers.UserMapper">
+
+<!--void insertUser();  id对应的是mapper中的方法-->
+    <insert id="insertUser" >
+        insert into t_user values(null,'张三','123',15,'女',null)
+    </insert>
+
+
+
+</mapper>
